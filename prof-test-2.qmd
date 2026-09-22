@@ -1,0 +1,14 @@
+---
+title: "Proficiency Test II"
+author: Jay Agustin
+format: pdf
+editor: visual
+---
+
+## Task 1
+
+```{r}
+for (i in 1:3) {
+  print(mtcars$mpg[i])
+}
+```
