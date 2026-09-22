@@ -22,8 +22,8 @@ count_above <- function(x, cutoff) { #creates a function count_above w/ inputs x
   
   count <- 0 #establishes a count that starts at 0
   
-  for (i in 1:length(x)) { #for each row, starting from 1 to
-    #however many rows there are in x,
+  for (i in 1:length(x)) { #for each value, starting from the 1st to
+    #however many values there are in x,
     if (x[i] > cutoff) #check if its value is above the given cutoff
       count <- count + 1 #if yes, count goes up by 1
   }
