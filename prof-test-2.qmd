@@ -38,7 +38,7 @@ Sepal Lengths > 6 cm:
 count_above(iris$Sepal.Length, 6)
 ```
 
-Disp > 150
+Disp > 150:
 ```{r}
 count_above(mtcars$disp, 150)
 ```
