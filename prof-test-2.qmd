@@ -46,3 +46,14 @@ count_above(mtcars$disp, 150)
 "*Masking* functions" are conflicting functions (i.e., functions that share a name). For example, when you load dplyr into your current R session, it will say "The following objects are masked from ‘package:stats'..."
 
 This means that when you try to use the listed masked functions, it will automatically use the ones from base R. If you want to use those masked functions, you will need to specify from which package it is (filter(x) becomes dplyr::filter(x)).
+
+\newpage
+
+## Task 4
+
+```{r}
+iris$Sepal.Length[1] #returns the first value under the Sepal Length (1st) column
+
+iris[1, 1] #returns the value under the 1st column and 1st row
+```
+
