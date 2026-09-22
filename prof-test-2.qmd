@@ -33,9 +33,13 @@ count_above <- function(x, cutoff) { #creates a function count_above w/ inputs x
 }
 ```
 
+Sepal Lengths > 6 cm:
 ```{r}
 count_above(iris$Sepal.Length, 6)
+```
 
+Disp > 150
+```{r}
 count_above(mtcars$disp, 150)
 ```
 
